@@ -14,7 +14,7 @@ int octalToDecimal(int n){
 }
 int main(){
     int num;
-    cout<<"Enter any binary number : ";
+    cout<<"Enter any octal number : ";
     cin>> num;
     cout<<octalToDecimal(num)<<endl;
     return 0;
