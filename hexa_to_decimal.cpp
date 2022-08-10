@@ -17,7 +17,7 @@ int hexaToDecimal(string n){
 }
 int main(){
     string n;
-    cout<<"Enter any binary number : ";
+    cout<<"Enter any hexadecimal number : ";
     cin>> n;
     cout<<hexaToDecimal(n)<<endl;
     return 0;
