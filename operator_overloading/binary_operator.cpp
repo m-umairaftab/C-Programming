@@ -33,6 +33,11 @@ Distance Distance::operator + (Distance d2) const         //return sum
     }                                              //return a temporary Distance
     return Distance(f,i);                         //initialized to sum
 }
+friend ostream &operator << (ostream &output, const Distance &D) 
+{
+    output<<D.dist1;
+    return output;
+}
 int main(){
     Distance dist1, dist3, dist4;                         //define distances
     dist1.getdist();                                     //get dist1 from user
@@ -51,5 +56,6 @@ int main(){
     cout << "dist4 = ";
     dist4.showdist(); 
     cout << endl;
+    cout<<dist1<<endl;
     return 0;
 }
