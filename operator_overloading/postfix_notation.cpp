@@ -2,7 +2,7 @@
 using namespace std;
 class Counter
 {
-private:
+ private:
     unsigned int count;                         //count
  public:
     Counter() : count(0)                       //constructor no args
