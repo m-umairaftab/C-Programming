@@ -18,7 +18,7 @@ private:
         ++count;                            // increment count, then return
         return Counter(count);             // an unnamed temporary object
     }                                     // initialized to this count
-    Counter operator ++ (int)                   //increment count
+    Counter operator ++ (int)            //increment count
     {
         count++;                            // increment count, then return
         return Counter(count);             // an unnamed temporary object
