@@ -214,6 +214,10 @@ void playerMove(){
     else if(turn=='O' && board[initialRow][initialCol]=='X'){
         cout<<"You cannot move because it's "<<p1<<" token";
     }
+    else if (board[initialRow][initialCol]!='O' || board[initialRow][initialCol]!='X')
+    {
+        cout<<"Please Select own token";
+    }
     else if(turn=='X' && board[initialRow][initialCol]=='X'){
         if(choose==1){
             if(board[initialRow][initialCol+1] == board[destinationRow][destinationCol]){
