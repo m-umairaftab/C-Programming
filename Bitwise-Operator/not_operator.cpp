@@ -5,3 +5,5 @@ int main(){
     a = ~a;
     cout<<"Value of a : "<<a<<endl;
 }
+
+// 00000101 11111010  10000110
